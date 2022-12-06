@@ -38,6 +38,7 @@ body {
   border-radius: 50px;
   padding: 1.5rem 2.5rem;
   border: none;
+  cursor: pointer;
 }
 .get-started:hover {
   background: #ecb20d;
