@@ -1,7 +1,6 @@
 /* universal styling */
 * {
   font-family: "Lexend Deca", sans-serif;
-  color: #f6f7f1;
   margin: 0;
   padding: 0;
 }
@@ -28,14 +27,20 @@ img {
   line-height: 20px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  color: #f6f7f1;
   background: #f14c36;
   border-radius: 50px;
   padding: 1.5rem;
+}
+.get-started:hover {
+  background: #ecb20d;
+  color: #29182e;
 }
 
 /* header styling start */
 
 header {
+  color: #f6f7f1;
   background-color: #29182e;
   margin: 0;
 }
@@ -90,10 +95,51 @@ header img {
 /* main styling start */
 main {
   background-color: #f6f7f1;
+  color: #29182e;
 }
 
 /* section 1 styling start */
 
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+main img {
+  width: 293px;
+  margin: auto;
+}
+
+.section-1-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 2rem;
+}
+
+.section-1 h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.social {
+  color: #f14c36;
+}
+.integrity {
+  color: #436b2c;
+}
+
+.section-1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
 /* section 1 styling end */
 
 /* section 2 styling start */
@@ -105,6 +151,7 @@ main {
 /* footer styling start */
 
 footer {
+  color: #f6f7f1;
   background-color: #29182e;
   display: flex;
   flex-direction: column;
@@ -206,6 +253,36 @@ footer .logo {
   /* header styling end */
 
   /* main styling start */
+
+  .section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    gap: 4rem;
+  }
+
+  main img {
+    width: 293px;
+    justify-content: left;
+    margin: 1rem;
+  }
+
+  .section-1-textbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    text-align: right;
+    margin: 1rem;
+    max-width: 34rem;
+  }
+
+  .section-1 h2 {
+  }
+
+  .section-1 p {
+  }
 
   /* section 1 styling start */
 
