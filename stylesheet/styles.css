@@ -1,8 +1,14 @@
 /* universal styling */
 * {
   font-family: "Lexend Deca", sans-serif;
+  color: #f6f7f1;
+  margin: 0;
+  padding: 0;
 }
 
+img {
+  width: 100%;
+}
 /* reusable class/es */
 
 .logo {
@@ -16,15 +22,67 @@
 }
 
 .get-started {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  background: #f14c36;
+  border-radius: 50px;
+  padding: 1.5rem;
 }
 
 /* header styling start */
 
 header {
   background-color: #29182e;
+  margin: 0;
+}
+
+header .logo {
+  text-align: center;
+  margin: 1rem auto 5rem;
+}
+.header-button-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
 }
 
 #desktop-button {
+  display: none;
+}
+
+.header-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 2rem 1rem;
+}
+
+header p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  margin: 1rem;
+}
+
+#mobile-button {
+  margin: 1rem auto 15rem;
+}
+header img {
   display: none;
 }
 /* header styling end */
@@ -99,8 +157,55 @@ footer .logo {
 /* footer styling end */
 
 /* media query for desktop */
-@media screen and (min-width: 725px) {
+@media screen and (min-width: 680px) {
   /* header styling start */
+
+  .header-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  header .logo {
+    margin: 0 1rem;
+  }
+  .header-flex-container {
+    display: flex;
+  }
+  .header-text-container {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  header h1 {
+    text-align: left;
+    padding: 0;
+  }
+
+  header p {
+    text-align: left;
+    width: 86%;
+  }
+
+  #desktop-button {
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  #mobile-button {
+    display: none;
+  }
+
+  header img {
+    align-items: flex-end;
+    display: inline-block;
+    width: 640px;
+  }
+
+  /* header styling end */
+
+  /* main styling start */
 
   /* section 1 styling start */
 
@@ -109,10 +214,6 @@ footer .logo {
   /* section 2 styling start */
 
   /* section 2 styling end */
-
-  /* header styling end */
-
-  /* main styling start */
 
   /* main styling end */
 
