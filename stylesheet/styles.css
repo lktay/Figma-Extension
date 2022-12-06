@@ -1,0 +1,130 @@
+/* universal styling */
+* {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* reusable class/es */
+
+.logo {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #f14c36;
+}
+
+.get-started {
+}
+
+/* header styling start */
+
+header {
+  background-color: #29182e;
+}
+
+#desktop-button {
+  display: none;
+}
+/* header styling end */
+
+/* main styling start */
+main {
+  background-color: #f6f7f1;
+}
+
+/* section 1 styling start */
+
+/* section 1 styling end */
+
+/* section 2 styling start */
+
+/* section 2 styling end */
+
+/* main styling end */
+
+/* footer styling start */
+
+footer {
+  background-color: #29182e;
+  display: flex;
+  flex-direction: column;
+}
+
+footer .logo {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.footer-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.footer-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ecb20d;
+  text-decoration: none;
+  margin: 2px 0;
+}
+.footer-button:hover {
+  color: #f14c36;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin: 2rem auto 0.5rem;
+
+  color: #f6f7f1;
+}
+
+/* footer styling end */
+
+/* media query for desktop */
+@media screen and (min-width: 725px) {
+  /* header styling start */
+
+  /* section 1 styling start */
+
+  /* section 1 styling end */
+
+  /* section 2 styling start */
+
+  /* section 2 styling end */
+
+  /* header styling end */
+
+  /* main styling start */
+
+  /* main styling end */
+
+  /* footer styling start */
+
+  .footer-button-container {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+  }
+
+  .footer-button {
+    margin: 2rem 1rem;
+  }
+}
