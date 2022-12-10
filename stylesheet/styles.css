@@ -72,9 +72,6 @@ header .logo {
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1 {
@@ -306,6 +303,9 @@ footer .logo {
     justify-content: center;
     z-index: 1;
     padding: 3.5rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header h1 {
